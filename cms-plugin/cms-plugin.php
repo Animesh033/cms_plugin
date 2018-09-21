@@ -1,11 +1,11 @@
 <?php
 /*
 Plugin Name: CMS for minimum wages
-Plugin URI: https://complyindia.com/
+Plugin URI: 
 Description: Showing the notifications based on input date2
 Version: 1.0.0
 Author: Animesh
-Author URI: https://complyindia.com/
+Author URI: 
 */
 
 // Exit if accessed directly
