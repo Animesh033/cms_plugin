@@ -1,0 +1,94 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #1a1a1a;
+  background-color: #f0f0f0; }
+
+.button {
+  color: #ffffff;
+  background-color: #24cf5f;
+  padding: 12px 25px;
+  font-size: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border: 0;
+  border-radius: 2px;
+  outline: 0;
+  box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.2);
+  transition: all .2s; }
+  .button:hover, .button:active, .button:focus {
+    -ms-transform: scale(1.1);
+        transform: scale(1.1); }
+
+input, select {
+  width: calc(100% - 10px);
+  min-height: 30px;
+  padding-left: 5px;
+  padding-right: 5px;
+  letter-spacing: .5px;
+  border: 0;
+  border-bottom: 2px solid #f0f0f0; }
+  input:valid {
+    border-color: #24cf5f; }
+  input:focus {
+    outline: none;
+    border-color: #fbcf34; }
+
+.form-list{
+  padding-left: 0;
+  list-style:none;}
+  .form-list__row {
+    margin-bottom: 25px; }
+    .form-list__row label {
+      position: relative;
+      display: block;
+      text-transform: uppercase;
+      font-weight: 600;
+      font-size: 11px;
+      letter-spacing: .5px;
+      color: #939393; }
+    .form-list__row--inline {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+      .form-list__row--inline > :first-child {
+        -ms-flex: 2;
+            flex: 2;
+        padding-right: 20px; }
+      .form-list__row--inline > :nth-child(2n) {
+        -ms-flex: 1;
+            flex: 1; }
+  .form-list__input-inline {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+        justify-content: space-between; }
+    .form-list__input-inline > * {
+      width: calc(50% - 10px - 10px); }
+  .form-list__row--agree {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 12px; }
+    .form-list__row--agree label {
+      font-weight: 400;
+      text-transform: none;
+      color: #676767; }
+    .form-list__row--agree input {
+      width: auto;
+      margin-right: 5px; }
+
+
+ .cms__container {
+    display: -ms-flexbox;
+    display: flex;
+    max-width: 675px;
+    min-height: 400px;
+      margin: 0 auto;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.1); }
+
+  .cms__content {
+    -ms-flex: 3;
+        flex: 3;
+    padding: 40px 30px; }
